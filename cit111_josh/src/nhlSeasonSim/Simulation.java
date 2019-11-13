@@ -11,128 +11,128 @@ import java.util.Random;
  * @author joshua.swimkosky
  */
 public class Simulation {
-    // introducing all players as ints into program
-    
-    // Anaheim Forwards
-    int rickardRakell;
-    int ryanGetzlaf;
-    int ondrejKase;
-    // Arizona Forwards
-    int philKessel;
-    int claytonKeller;
-    int nickSchmaltz;
-    // Boston Forwards
-    int davidPastrnak;
-    int patriceBergeron;
-    int bradMarchand;
-    // Buffalo Forwards
-    int jackEichel;
-    int jeffSkinner;
-    int samReinhart;
-    // Calgary Forwards
-    int johnnyGaudreau;
-    int seanMonahan;
-    int matthewTkachuk;
-    // CarolinaForwards
-    int sebastianAho;
-    int andreiSvechnikov;
-    int teuvoTeravainen;
-    // Chicago Forwards
-    int patrickKane;
-    int jonathanToews;
-    int alexDebrincat;
-    // Colorado Forwards
-    int nathanMackinnon;
-    int mikkoRantanen;
-    int gabrielLandeskog;
-    // Columbus Forwards
-    int pLDubois;
-    int camAtkinson;
-    // Dallas Forwards
-    int tylerSeguin;
-    int jamieBenn;
-    int alexanderRadulov;
-    // Detroit Forwards
-    int dylanLarkin;
-    int anthonyMantha;
-    int tylerBertuzzi;
-    // Edmonton Forwards
-    int connorMcdavid;
-    int leonDraisaitl;
-    int ryanNugentHopkins;
-    // Florida Forwards
-    int aleksanderBarkov;
-    int jonathanHuberdeau;
-    int evgeniiDadonov;
-    // LA Forwards
-    int anzeKopitar;
-    // Minnesota Forwards
-    int jasonZucker;
-    int matsZuccarello;
-    // Montreal Forwards
-    int brendanGallagher;
-    int maxDomi;
-    int jonathanDrouin;
-    // Nashville Forwards
-    int filipForsberg;
-    int viktorArvidsson;
-    int mattDuchene;
-    // New Jersey Forwards
-    int taylorHall;
-    int nicoHischier;
-    int jackHughes;
-    // New York Islanders Forwards
-    int matBarzal;
-    int jordanEberle;
-    int andersLee;
-    // New York Rangers Forwards
-    int artemiPanarin;
-    int mikaZibanejad;
-    int kaapoKakko;
-    // Ottawa Forwards
-    int bradyTkachuk;
-    // Philadelphia Forwards
-    int claudeGiroux;
-    int travisKonecny;
-    int seanCouturier;
-    // Pittsburgh Forwards
-    int sidneyCrosby;
-    int evgeniMalkin;
-    int jakeGuentzel;
-    // San Jose Forwards
-    int evanderKane;
-    int loganCouture;
-    int tomasHertl;
-    // St Louis Forwards
-    int vladimirTarasenko;
-    int jadenSchwartz;
-    int ryanOReilly;
-    // Tampa Forwards
-    int nikitaKucherov;
-    int braydenPoint;
-    int stevenStamkos;
-    // Toronto Forwards
-    int austonMatthews;
-    int mitchMarner;
-    int johnTavares;
-    int williamNylander;
-    // Vancouver Forwards
-    int boHorvat;
-    int eliasPettersson;
-    int brockBoeser;
-    // Vegas Fs
-    int markStone;
-    int maxPacioretty;
-    int jonathanMarchessault;
-     // Washington Fs
-    int alexOvechkin;
-    int evgenyKuznetsov;
-    int nicklasBackstrom;
-    // Winnipeg Fs
-    int markScheifele;
-    int blakeWheeler;
-    int kyleConnor;
-    int patrikLaine;
+//    // introducing all players as ints into program
+//    
+//    // Anaheim Forwards
+//    int rickardRakell;
+//    int ryanGetzlaf;
+//    int ondrejKase;
+//    // Arizona Forwards
+//    int philKessel;
+//    int claytonKeller;
+//    int nickSchmaltz;
+//    // Boston Forwards
+//    int davidPastrnak;
+//    int patriceBergeron;
+//    int bradMarchand;
+//    // Buffalo Forwards
+//    int jackEichel;
+//    int jeffSkinner;
+//    int samReinhart;
+//    // Calgary Forwards
+//    int johnnyGaudreau;
+//    int seanMonahan;
+//    int matthewTkachuk;
+//    // CarolinaForwards
+//    int sebastianAho;
+//    int andreiSvechnikov;
+//    int teuvoTeravainen;
+//    // Chicago Forwards
+//    int patrickKane;
+//    int jonathanToews;
+//    int alexDebrincat;
+//    // Colorado Forwards
+//    int nathanMackinnon;
+//    int mikkoRantanen;
+//    int gabrielLandeskog;
+//    // Columbus Forwards
+//    int pLDubois;
+//    int camAtkinson;
+//    // Dallas Forwards
+//    int tylerSeguin;
+//    int jamieBenn;
+//    int alexanderRadulov;
+//    // Detroit Forwards
+//    int dylanLarkin;
+//    int anthonyMantha;
+//    int tylerBertuzzi;
+//    // Edmonton Forwards
+//    int connorMcdavid;
+//    int leonDraisaitl;
+//    int ryanNugentHopkins;
+//    // Florida Forwards
+//    int aleksanderBarkov;
+//    int jonathanHuberdeau;
+//    int evgeniiDadonov;
+//    // LA Forwards
+//    int anzeKopitar;
+//    // Minnesota Forwards
+//    int jasonZucker;
+//    int matsZuccarello;
+//    // Montreal Forwards
+//    int brendanGallagher;
+//    int maxDomi;
+//    int jonathanDrouin;
+//    // Nashville Forwards
+//    int filipForsberg;
+//    int viktorArvidsson;
+//    int mattDuchene;
+//    // New Jersey Forwards
+//    int taylorHall;
+//    int nicoHischier;
+//    int jackHughes;
+//    // New York Islanders Forwards
+//    int matBarzal;
+//    int jordanEberle;
+//    int andersLee;
+//    // New York Rangers Forwards
+//    int artemiPanarin;
+//    int mikaZibanejad;
+//    int kaapoKakko;
+//    // Ottawa Forwards
+//    int bradyTkachuk;
+//    // Philadelphia Forwards
+//    int claudeGiroux;
+//    int travisKonecny;
+//    int seanCouturier;
+//    // Pittsburgh Forwards
+//    int sidneyCrosby;
+//    int evgeniMalkin;
+//    int jakeGuentzel;
+//    // San Jose Forwards
+//    int evanderKane;
+//    int loganCouture;
+//    int tomasHertl;
+//    // St Louis Forwards
+//    int vladimirTarasenko;
+//    int jadenSchwartz;
+//    int ryanOReilly;
+//    // Tampa Forwards
+//    int nikitaKucherov;
+//    int braydenPoint;
+//    int stevenStamkos;
+//    // Toronto Forwards
+//    int austonMatthews;
+//    int mitchMarner;
+//    int johnTavares;
+//    int williamNylander;
+//    // Vancouver Forwards
+//    int boHorvat;
+//    int eliasPettersson;
+//    int brockBoeser;
+//    // Vegas Fs
+//    int markStone;
+//    int maxPacioretty;
+//    int jonathanMarchessault;
+//     // Washington Fs
+//    int alexOvechkin;
+//    int evgenyKuznetsov;
+//    int nicklasBackstrom;
+//    // Winnipeg Fs
+//    int markScheifele;
+//    int blakeWheeler;
+//    int kyleConnor;
+//    int patrikLaine;
    
     
             
@@ -299,6 +299,21 @@ public class Simulation {
         
     } // close randomizerAssists
     
+    public static int randomizerDefenseGoals(){
+        Random goals = new Random();
+
+        return goals.nextInt(30);
+        
+        
+    } // close defense goals
+    
+    public static int randomizerDefenseAssists(){
+        Random assists = new Random();
+        
+        return assists.nextInt(80);
+        
+    } // close defense assists
+    
     
     public static void anaheimDucks(){
         System.out.println("Anaheim Ducks selected");
@@ -325,6 +340,27 @@ public class Simulation {
         int pointsKase = assistsKase + goalsKase;
         System.out.println("Total points scored by Kase: " + pointsKase);
         
+        System.out.println(" ");
+        int goalsFowler = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Fowler: " + goalsFowler);
+        int assistsFowler = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Fowler: " + assistsFowler);
+        int pointsFowler = assistsFowler + goalsFowler;
+        System.out.println("Total points scored by Fowler: "+ pointsFowler);
+        
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
         
     } // close anaheimDucksnr
     
@@ -352,6 +388,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Schmaltz: " + assistsSchmaltz);
         int pointsSchmaltz = assistsSchmaltz + goalsSchmaltz;
         System.out.println("Total points scored by Schmaltz: " + pointsSchmaltz);
+        
+        System.out.println(" ");
+        int goalsOEL = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Ekman-Larsson: " + goalsOEL);
+        int assistsOEL = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Ekman-Larsson: " + assistsOEL);
+        int pointsOEL = assistsOEL + goalsOEL;
+        System.out.println("Total points scored by Ekman-Larsson: "+ pointsOEL);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close arizonaCoyotes
     
     public static void bostonBruins(){
@@ -379,6 +436,27 @@ public class Simulation {
         int pointsMarchand = assistsMarchand + goalsMarchand;
         System.out.println("Total points scored by Marchand: " + pointsMarchand);
         System.out.println(" ");
+        
+        System.out.println(" ");
+        int goalsKrug = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Krug: " + goalsKrug);
+        int assistsKrug = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Krug: " + assistsKrug);
+        int pointsKrug = assistsKrug + goalsKrug;
+        System.out.println("Total points scored by Krug: "+ pointsKrug);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
 
     } // close bostonBruins
     
@@ -407,7 +485,26 @@ public class Simulation {
         int pointsReinhart = assistsReinhart + goalsReinhart;
         System.out.println("Total points scored by Reinhart: " + pointsReinhart);
         
+        System.out.println(" ");
+        int goalsDahlin = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Dahlin: " + goalsDahlin);
+        int assistsDahlin = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Dahlin: " + assistsDahlin);
+        int pointsDahlin = assistsDahlin + goalsDahlin;
+        System.out.println("Total points scored by Dahlin: "+ pointsDahlin);
         
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close buffaloSabres
     
     public static void calgaryFlames(){
@@ -435,6 +532,26 @@ public class Simulation {
         int pointsMonahan = assistsMonahan + goalsMonahan;
         System.out.println("Total points scored by Monahan: " + pointsMonahan);
         
+        System.out.println(" ");
+        int goalsGio = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Giordano: " + goalsGio);
+        int assistsGio = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Giordano: " + assistsGio);
+        int pointsGio = assistsGio + goalsGio;
+        System.out.println("Total points scored by Giordano: "+ pointsGio);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close calgaryFlames
     
     public static void carolinaHurricanes(){
@@ -462,6 +579,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Teravainen: " + assistsTeravainen);
         int pointsTeravainen = assistsTeravainen + goalsTeravainen;
         System.out.println("Total points scored by Teravainen: " + pointsTeravainen);
+        
+        System.out.println(" ");
+        int goalsHamilton = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Hamilton: " + goalsHamilton);
+        int assistsHamilton = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Hamilton: " + assistsHamilton);
+        int pointsHamilton = assistsHamilton + goalsHamilton;
+        System.out.println("Total points scored by Hamilton: "+ pointsHamilton);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close carolinaHurricanes
     
     public static void chicagoBlackhawks(){
@@ -490,6 +628,26 @@ public class Simulation {
         int pointsDebrincat = assistsDebrincat + goalsDebrincat;
         System.out.println("Total points scored by Debrincat: " + pointsDebrincat);
         
+        System.out.println(" ");
+        int goalsKeith = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Keith: " + goalsKeith);
+        int assistsKeith = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Keith: " + assistsKeith);
+        int pointsKeith = assistsKeith + goalsKeith;
+        System.out.println("Total points scored by Keith: "+ pointsKeith);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close chicagoBlackhawks
     
     public static void coloradoAvalanche(){
@@ -517,6 +675,26 @@ public class Simulation {
         System.out.println("Number of assists scored by Landeskog: " + assistsLandeskog);
         int pointsLandeskog = assistsLandeskog + goalsLandeskog;
         System.out.println("Total points scored by Landeskog: " + pointsLandeskog);
+        
+        System.out.println(" ");
+        int goalsMakar = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Makar: " + goalsMakar);
+        int assistsMakar = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Makar: " + assistsMakar);
+        int pointsMakar = assistsMakar + goalsMakar;
+        System.out.println("Total points scored by Makar: "+ pointsMakar);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        else {
+            System.out.println("End of program");
+                }
     } // close coloradoAvalanche
     
     public static void columbusBlueJackets(){
@@ -535,6 +713,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Atkinson: " + assistsAtkinson);
         int pointsAtkinson = assistsAtkinson + goalsAtkinson;
         System.out.println("Total points scored by Atkinson: " + pointsAtkinson);
+        
+        System.out.println(" ");
+        int goalsJones = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Jones: " + goalsJones);
+        int assistsJones = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Jones: " + assistsJones);
+        int pointsJones = assistsJones + goalsJones;
+        System.out.println("Total points scored by Jones: "+ pointsJones);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close columbusBlueJackets
     
     public static void dallasStars(){
@@ -561,6 +760,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Radulov: " + assistsRadulov);
         int pointsRadulov = assistsRadulov + goalsRadulov;
         System.out.println("Total points scored by Radulov: " + pointsRadulov);
+        
+        System.out.println(" ");
+        int goalsKlingberg = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Klingberg: " + goalsKlingberg);
+        int assistsKlingberg = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Klingberg: " + assistsKlingberg);
+        int pointsKlingberg = assistsKlingberg + goalsKlingberg;
+        System.out.println("Total points scored by Klingberg: "+ pointsKlingberg);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close dallasStars
     
     public static void detroitRedWings(){
@@ -588,6 +808,19 @@ public class Simulation {
         System.out.println("Number of assists scored by Bertuzzi: " + assistsBertuzzi);
         int pointsBertuzzi = assistsBertuzzi + goalsBertuzzi;
         System.out.println("Total points scored by Bertuzzi: " + pointsBertuzzi);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close detroitRedWings
     
     public static void edmontonOilers(){
@@ -615,6 +848,19 @@ public class Simulation {
         System.out.println("Number of assists scored by Nugent-Hopkins: " + assistsNuge);
         int pointsNuge = assistsNuge + goalsNuge;
         System.out.println("Total points scored by Nugent-Hopkins: " + pointsNuge);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close edmontonOilers
     
     public static void floridaPanthers(){
@@ -642,6 +888,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Dadonov: " + assistsDadonov);
         int pointsDadonov = assistsDadonov + goalsDadonov;
         System.out.println("Total points scored by Dadonov: " + pointsDadonov);
+        
+        System.out.println(" ");
+        int goalsYandle = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Yandle: " + goalsYandle);
+        int assistsYandle = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Yandle: " + assistsYandle);
+        int pointsYandle = assistsYandle + goalsYandle;
+        System.out.println("Total points scored by Yandle: "+ pointsYandle);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close floridaPanthers
     
     public static void losAngelesKings(){
@@ -653,6 +920,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Kopitar: " + assistsKopitar);
         int pointsKopitar = assistsKopitar + goalsKopitar;
         System.out.println("Total points scored by Kopitar: " + pointsKopitar);
+        
+        System.out.println(" ");
+        int goalsDoughty = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Doughty: " + goalsDoughty);
+        int assistsDoughty = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Doughty: " + assistsDoughty);
+        int pointsDoughty = assistsDoughty + goalsDoughty;
+        System.out.println("Total points scored by Doughty: "+ pointsDoughty);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close losAngelesKings
     
     public static void minnesotaWild(){
@@ -672,6 +960,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Zucker: " + assistsZucker);
         int pointsZucker = assistsZucker + goalsZucker;
         System.out.println("Total points scored by Zucker: " + pointsZucker);
+        
+        System.out.println(" ");
+        int goalsDumba = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Dumba: " + goalsDumba);
+        int assistsDumba = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Dumba: " + assistsDumba);
+        int pointsDumba = assistsDumba + goalsDumba;
+        System.out.println("Total points scored by Dumba: "+ pointsDumba);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close minnesotaWild
     
     public static void montrealCanadiens(){
@@ -699,6 +1008,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Drouin: " + assistsDrouin);
         int pointsDrouin = assistsDrouin + goalsDrouin;
         System.out.println("Total points scored by Drouin: " + pointsDrouin);
+        
+        System.out.println(" ");
+        int goalsWeber = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Weber: " + goalsWeber);
+        int assistsWeber = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Weber: " + assistsWeber);
+        int pointsWeber = assistsWeber + goalsWeber;
+        System.out.println("Total points scored by Weber: "+ pointsWeber);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close montrealCanadiens
     
     public static void nashvillePredators(){
@@ -726,6 +1056,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Duchene: " + assistsDuchene);
         int pointsDuchene = assistsDuchene + goalsDuchene;
         System.out.println("Total points scored by Duchene: " + pointsDuchene);
+        
+        System.out.println(" ");
+        int goalsJosi = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Josi: " + goalsJosi);
+        int assistsJosi = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Josi: " + assistsJosi);
+        int pointsJosi = assistsJosi + goalsJosi;
+        System.out.println("Total points scored by Josi: "+ pointsJosi);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close nashvillePredators
     
     public static void newJerseyDevils(){
@@ -753,6 +1104,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Hughes: " + assistsHughes);
         int pointsHughes = assistsHughes + goalsHughes;
         System.out.println("Total points scored by Hughes: " + pointsHughes);
+        
+        System.out.println(" ");
+        int goalsSubban = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Subban: " + goalsSubban);
+        int assistsSubban = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Subban: " + assistsSubban);
+        int pointsSubban = assistsSubban + goalsSubban;
+        System.out.println("Total points scored by Subban: "+ pointsSubban);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close newJerseyDevils
     
     public static void newYorkIslanders(){
@@ -780,6 +1152,19 @@ public class Simulation {
         System.out.println("Number of assists scored by Lee: " + assistsLee);
         int pointsLee = assistsLee + goalsLee;
         System.out.println("Total points scored by Lee: " + pointsLee);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close newYorkIslanders
     
     public static void newYorkRangers(){
@@ -807,8 +1192,28 @@ public class Simulation {
         System.out.println("Number of assists scored by Kakko: " + assistsKakko);
         int pointsKakko = assistsKakko + goalsKakko;
         System.out.println("Total points scored by Kakko: " + pointsKakko);
+        
+        System.out.println(" ");
+        int goalsTrouba = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Trouba: " + goalsTrouba);
+        int assistsTrouba = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Trouba: " + assistsTrouba);
+        int pointsTrouba = assistsTrouba + goalsTrouba;
+        System.out.println("Total points scored by Trouba: "+ pointsTrouba);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close newYorkRangers
-    
     public static void ottawaSenators(){
         System.out.println("Ottawa Senators selected");
         
@@ -818,6 +1223,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Tkachuk: " + assistsTkachuk);
         int pointsTkachuk = assistsTkachuk + goalsTkachuk;
         System.out.println("Total points scored by Tkachuk: " + pointsTkachuk);
+        
+        System.out.println(" ");
+        int goalsChabot = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Chabot: " + goalsChabot);
+        int assistsChabot = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Chabot: " + assistsChabot);
+        int pointsChabot = assistsChabot + goalsChabot;
+        System.out.println("Total points scored by Chabot: "+ pointsChabot);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close ottawaSenators
     
     public static void philadelphiaFlyers(){
@@ -850,6 +1276,27 @@ public class Simulation {
         int pointsCouturier;
         pointsCouturier = assistsCouturier + goalsCouturier;
         System.out.println("Total points scored by Couturier: " + pointsCouturier);
+        
+        System.out.println(" ");
+        int goalsProvorov = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Provorov: " + goalsProvorov);
+        int assistsProvorov = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Provorov: " + assistsProvorov);
+        int pointsProvorov = assistsProvorov + goalsProvorov;
+        System.out.println("Total points scored by Provorov: "+ pointsProvorov);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close philadelphiaFlyers
     
     public static void pittsburghPenguins(){
@@ -879,6 +1326,27 @@ public class Simulation {
         int pointsGuentzel;
         pointsGuentzel = assistsGuentzel + goalsGuentzel;
         System.out.println("Total points scored by Guentzel: " + pointsGuentzel);
+        
+        System.out.println(" ");
+        int goalsLetang = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Letang: " + goalsLetang);
+        int assistsLetang = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Letang: " + assistsLetang);
+        int pointsLetang = assistsLetang + goalsLetang;
+        System.out.println("Total points scored by Letang: "+ pointsLetang);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
         
 //        System.out.println("Total Goals scored by Daniel Sprong: 89");
         
@@ -913,6 +1381,35 @@ public class Simulation {
         System.out.println("Number of assists scored by Kane: " + assistsKane);
         int pointsKane = assistsKane + goalsKane;
         System.out.println("Total points scored by Kane: " + pointsKane);
+        
+        System.out.println(" ");
+        int goalsKarlsson = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Karlsson: " + goalsKarlsson);
+        int assistsKarlsson = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Karlsson: " + assistsKarlsson);
+        int pointsKarlsson = assistsKarlsson + goalsKarlsson;
+        System.out.println("Total points scored by Karlsson: "+ pointsKarlsson);
+        
+        System.out.println(" ");
+        int goalsBurns = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Burns: " + goalsBurns);
+        int assistsBurns = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Burns: " + assistsBurns);
+        int pointsBurns = assistsBurns + goalsBurns;
+        System.out.println("Total points scored by Burns: "+ pointsBurns);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close sanJoseSharks
     
     public static void stLouisBlues(){
@@ -940,6 +1437,27 @@ public class Simulation {
         System.out.println("Number of assists scored by O'Reilly: " + assistsOReilly);
         int pointsOReilly = assistsOReilly + goalsOReilly;
         System.out.println("Total points scored by O'Reilly: " + pointsOReilly);
+        
+        System.out.println(" ");
+        int goalsP = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Pietrangelo: " + goalsP);
+        int assistsP = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Pietrangelo: " + assistsP);
+        int pointsP = assistsP + goalsP;
+        System.out.println("Total points scored by Pietrangelo: "+ pointsP);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close stLouisBlues
     
     public static void tampaBayLightning(){
@@ -967,6 +1485,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Stamkos: " + assistsStamkos);
         int pointsStamkos = assistsStamkos + goalsStamkos;
         System.out.println("Total points scored by Stamkos: " + pointsStamkos);
+        
+        System.out.println(" ");
+        int goalsHedman = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Hedman: " + goalsHedman);
+        int assistsHedman = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Hedman: " + assistsHedman);
+        int pointsHedman = assistsHedman + goalsHedman;
+        System.out.println("Total points scored by Hedman: "+ pointsHedman);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close tampaBayLightning
     
     public static void torontoMapleLeafs(){
@@ -1002,6 +1541,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Nylander: " + assistsNylander);
         int pointsNylander = assistsNylander + goalsNylander;
         System.out.println("Total points scored by Nylander: " + pointsNylander);
+        
+        System.out.println(" ");
+        int goalsRielly = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Rielly: " + goalsRielly);
+        int assistsRielly = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Rielly: " + assistsRielly);
+        int pointsRielly = assistsRielly + goalsRielly;
+        System.out.println("Total points scored by Rielly: "+ pointsRielly);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close torontoMapleLeafs
     
     public static void vancouverCanucks(){
@@ -1029,6 +1589,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Boeser: " + assistsBoeser);
         int pointsBoeser = assistsBoeser + goalsBoeser;
         System.out.println("Total points scored by Boeser: " + pointsBoeser);
+        
+        System.out.println(" ");
+        int goalsHughes = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Hughes: " + goalsHughes);
+        int assistsHughes = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Hughes: " + assistsHughes);
+        int pointsHughes = assistsHughes + goalsHughes;
+        System.out.println("Total points scored by Hughes: "+ pointsHughes);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close vancouverCanucks
     
     public static void vegasGoldenKnights(){
@@ -1056,6 +1637,19 @@ public class Simulation {
         System.out.println("Number of assists scored by Pacioretty: " + assistsPacioretty);
         int pointsPacioretty = assistsPacioretty + goalsPacioretty;
         System.out.println("Total points scored by Pacioretty: " + pointsPacioretty);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close vegasGoldenKnights
     
     public static void washingtonCapitals(){
@@ -1083,6 +1677,27 @@ public class Simulation {
         System.out.println("Number of assists scored by Kuznetsov: " + assistsKuznetsov);
         int pointsKuznetsov = assistsKuznetsov + goalsKuznetsov;
         System.out.println("Total points scored by Kuznetsov: " + pointsKuznetsov);
+        
+        System.out.println(" ");
+        int goalsCarlson = randomizerDefenseGoals();
+        System.out.println("Number of goals scored by Carlson: " + goalsCarlson);
+        int assistsCarlson = randomizerDefenseAssists();
+        System.out.println("Number of assists scored by Carlson: " + assistsCarlson);
+        int pointsCarlson = assistsCarlson + goalsCarlson;
+        System.out.println("Total points scored by Carlson: "+ pointsCarlson);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
     } // close washingtonCapitals
     
     public static void winnipegJets(){
@@ -1118,6 +1733,19 @@ public class Simulation {
         System.out.println("Number of assists scored by Scheifele: " + assistsScheifele);
         int pointsScheifele = assistsScheifele + goalsScheifele;
         System.out.println("Total points scored by Scheifele: " + pointsScheifele);
+        
+        System.out.println(" ");
+        String again;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to pick another team?");
+        again = input.next();
+        if (again.toLowerCase().equals("yes")){
+            teamSorter();
+        } // close if
+        
+        else {
+            System.out.println("End of program");
+                }
         
     } // close winnipegJets
     
