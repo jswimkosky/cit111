@@ -151,13 +151,13 @@ public class Simulation {
     
         
     public static void teamSorter(){
-        String statsType;
+//        String statsType;
         String normalTeam;
         Scanner input = new Scanner(System.in);
-        System.out.println("Select your stats (normal, advanced)");
-        statsType = input.next();
-        if (statsType.toLowerCase().equals("normal")) {
-            System.out.println("Normal Stats selected.");
+//        System.out.println("Select your stats (normal, advanced)");
+//        statsType = input.next();
+//        if (statsType.toLowerCase().equals("normal")) {
+//            System.out.println("Normal Stats selected.");
             System.out.println("Enter team name (name of team only)");
             System.out.println("No city names and no spaces!");
             normalTeam = input.next();
@@ -263,13 +263,12 @@ public class Simulation {
                 default:
                     break;
             } // close switch normal
-         } // close if stats normal
         
         
-        else if(statsType.toLowerCase().equals("advanced")){
-            System.out.println("Advanced stats selected.");
+//        else if(statsType.toLowerCase().equals("advanced")){
+//            System.out.println("Advanced stats selected.");
              
-         } // close else if
+        
         
     } // close team sorter
     public static int randomizerGoals(){
